@@ -88,3 +88,10 @@ crashlytics-build.properties
 /Doozy/Assembly-CSharp.csproj
 /Doozy/Assembly-CSharp-Editor.csproj
 /Doozy/Assembly-CSharp-firstpass.csproj
+/NewKitchen/.vs
+Library
+Logs
+obj
+/NewKitchen/*.sln
+/NewKitchen/*.csproj
+/NewKitchen/*.vsconfig
