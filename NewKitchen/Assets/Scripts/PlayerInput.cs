@@ -13,7 +13,8 @@ public class PlayerInput : MonoBehaviour
 	}
 	public Vector2 GetMovementDirection()
 	{
-		Vector2 inputVector = inputActions.Player.Move.ReadValue<Vector2>();
+		Vector2 inputVector = Vector2.zero; 
+		inputVector = inputActions.Player.Move.ReadValue<Vector2>();
 		inputVector = inputVector.normalized;
 		return inputVector;
 	}
